@@ -38,7 +38,7 @@ namespace CarLotSimulator
         //First, create an empty constructor
         public Car()
         {
-
+            CarLot.numberOfCars++; //**NOTE** This Static field was added in Exercise 2 of the Static Class Unit to increment each time the Car() constructor was used for a new car.
         }
 
         //Next, Populate the information into the constructor.  This method turns the Properties above into Variables

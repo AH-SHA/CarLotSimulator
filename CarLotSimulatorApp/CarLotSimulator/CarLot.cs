@@ -12,6 +12,8 @@ namespace CarLotSimulator
     {
         //Buliding CarLot class with one prpoerty only, a list accepting a car type.
         //To avoid doing so in the code of main method, = the class to the creation of a new list each time the list name is invoked
+
+        public static int numberOfCars;   /// **NOTE** Added this static field in Exercise 2 about static classes/fields to create a way to increment the number of cars created i the "Program.cs" file
         public List<Car> CarLotList { get; set; } = new List<Car> ();
 
         //Created a method that prints each prpoerty for each member added to the CarLotList
